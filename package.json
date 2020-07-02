@@ -1,6 +1,6 @@
 {
     "name": "micapp",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "[CLI] Pluggable micro application framework. micro-app alias",
     "main": "index.js",
     "bin": {
