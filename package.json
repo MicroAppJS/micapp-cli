@@ -1,0 +1,24 @@
+{
+    "name": "micapp",
+    "version": "0.0.1",
+    "description": "[CLI] Pluggable micro application framework. micro-app alias",
+    "main": "index.js",
+    "bin": {
+        "micapp": "bin/micapp"
+    },
+    "scripts": {
+        "release": "micro-app release"
+    },
+    "author": {
+        "name": "Zyao89",
+        "email": "zyao89@gmail.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "@micro-app/cli": "^0.4.0"
+    },
+    "devDependencies": {
+        "@micro-app/plugin-deploy": "^0.0.7",
+        "eslint-config-2o3t": "^2.0.1"
+    }
+}

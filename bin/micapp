@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+'use strict';
+
+const { cmd, argv, service } = require('@micro-app/cli');
+
+const BUILT_IN = Symbol.for('built-in');
+service.registerPlugin({
+    id: 'cli:micapp-global-cli',
+    link: require.resolve('../index.js'),
+    [BUILT_IN]: true,
+});
+
+service.run(cmd, argv);
